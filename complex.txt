@@ -1,0 +1,9 @@
+for handling more complex drawing use advanced OCR models, contour-based line detection
+and automatic scale estimation. Support multiple formats, apply noise reduction, 
+and optimize with GPU acceleration for efficiency!
+
+
+Instead of relying on the Hough Line Transform, we can use mix of contour detection and 
+deep learning-based edge detection to better handle irregular or dashed dimension lines. Instead 
+of manually setting a scale factor, dynamic scale estimation can be used by identifying known reference 
+dimensions within the drawing, making the process more accurate and adaptable.
