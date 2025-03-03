@@ -1,6 +1,5 @@
-path: /Users/levandalbashvili/Documents/GitHub/vulxornx-dim-analysis/dataset
-train: images/train
-val: images/val
-test: images/test # Optional
-nc: 1 # Number of classes
-names: ['dimension']
+train: ./dataset/images/train
+val: ./dataset/images/val
+test: ./dataset/images/test
+nc: 2 # Number of classes
+names: ['numbers', 'rotated_numbers'] # Class names
