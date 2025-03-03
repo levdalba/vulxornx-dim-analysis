@@ -1,5 +1,11 @@
-opencv-python
-pytesseract
-numpy
-pandas
-tqdm
+ultralytics==8.2.96  # YOLOv8 for object detection
+opencv-python==4.5.5.64  # Image processing (compatible with Python 3.9)
+pytesseract==0.3.9  # OCR for text extraction from images
+pandas==1.5.3  # Data handling for predictions.csv (compatible with Python 3.9)
+numpy==1.21.6  # Numerical operations (compatible with Python 3.9)
+pillow==9.4.0  # Image handling
+torch==1.13.1  # PyTorch for YOLO (compatible with Python 3.9)
+torchvision==0.14.1  # PyTorch vision utilities
+matplotlib==3.5.2  # Visualization (optional, for debugging)
+pyqt5==5.15.2  # Qt backend for labelImg (compatible with Python 3.9)
+labelimg==1.8.6  # LabelImg for annotations

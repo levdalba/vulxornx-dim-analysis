@@ -12,3 +12,15 @@ venv/
 drive-download-data
 
 .DS_Store
+
+pip
+
+python3.9
+
+bin
+
+jpg
+
+dataset
+
+labels
